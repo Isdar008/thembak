@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+ATLANTIC_API_KEY = os.getenv("ATLANTIC_API_KEY")
+ATLANTIC_BASE_URL = "https://atlantich2h.com" 
 
 ADMIN_IDS = [1452437996] 
 
@@ -26,4 +28,3 @@ USER_STATE_ADMIN_SWITCH_NUMBER = 12
 # --- STATE BARU DITAMBAHKAN DI SINI ---
 USER_STATE_ENTER_DEPOSIT_ID = 13
 USER_STATE_AWAIT_MANUAL_PROOF= 14
-
