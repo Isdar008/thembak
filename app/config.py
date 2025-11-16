@@ -4,10 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-ATLANTIC_API_KEY = os.getenv("ATLANTIC_API_KEY")
-ATLANTIC_BASE_URL = "https://atlantich2h.com" 
 
-ADMIN_IDS = [8372210994] 
+ADMIN_IDS = [8300988099] 
 
 user_states = {}
 reff_id_to_chat_id_map = {}
